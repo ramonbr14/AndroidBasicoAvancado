@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ramonbr14.androidbasicoavancado.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtView"
+        android:text="Cadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnAbri"
+        android:onClick="cliquebotao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALO ROMORA"
+        tools:ignore="OnClick" />
+    <ImageButton
+        android:id="@+id/btnImg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bluej84toned"/>
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SALVAR O DIA"/>
+    <CheckBox
+        android:id="@+id/chkStar"
+        style="?android:attr/starStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rdbM"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="MASCULINO"
+            />
+        <RadioButton
+            android:id="@+id/rdbF"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="FEMININO"
+            />
+        <RadioButton
+            android:id="@+id/rdbO"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="OUTRX"
+            />
+    </RadioGroup>
+    <ToggleButton
+        android:id="@+id/togglel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nome:"/>
+                <EditText
+                    android:id="@+id/EditText01"
+                    android:layout_width="560px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Endereço:"/>
+                <EditText
+                    android:id="@+id/EditText02"
+                    android:layout_width="200px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Numero:"/>
+                <EditText
+                    android:id="@+id/EditText03"
+                    android:layout_width="180px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Bairro:"/>
+                <EditText
+                    android:id="@+id/EditText04"
+                    android:layout_width="180px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Cidade:"/>
+                <EditText
+                    android:id="@+id/EditText05"
+                    android:layout_width="180px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Salario:"/>
+                <EditText
+                    android:id="@+id/EditText06"
+                    android:layout_width="180px"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <TextView />
+                <Button
+                    android:id="@+id/Button01"
+                    android:text="ENVIAR O ENVIADO!"/>
+            </TableRow>
+
+
+        </TableLayout>-->
+</LinearLayout>
